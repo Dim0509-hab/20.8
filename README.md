@@ -1,3 +1,3 @@
-# 20.8
+# 22.7.2
 
-touch ~/text_file && cat /etc/ssh/sshd_config >> ~/text_file && cp ~/text_file /tmp/text_file_ssh && cat /etc/rsyslog.conf >> ~/text_file && cp -u ~/text_file /tmp/text_file_ssh
+location / { limit_except POST GET HEAD {  deny all;  }   }  
